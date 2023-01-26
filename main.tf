@@ -74,3 +74,5 @@ resource "aws_route_table_association" "priv" {
   gateway_id     = aws_subnet.Jan-priv-sub.id
   route_table_id = aws_route_table.Jan-priv-rt.id
 }
+
+# Nat Gateway
